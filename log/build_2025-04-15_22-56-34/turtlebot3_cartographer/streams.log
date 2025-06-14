@@ -1,0 +1,32 @@
+[0.569s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/turtlebot3_ws/install/turtlebot3_teleop:/home/hp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hp/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/hp/turtlebot3_ws/install/turtlebot3_cartographer
+[4.687s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.687s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.018s] -- Configuring done (6.2s)
+[7.293s] -- Generating done (0.1s)
+[7.324s] -- Build files have been written to: /home/hp/turtlebot3_ws/build/turtlebot3_cartographer
+[7.372s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/turtlebot3_ws/install/turtlebot3_teleop:/home/hp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hp/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/hp/turtlebot3_ws/install/turtlebot3_cartographer
+[7.373s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/turtlebot3_ws/install/turtlebot3_teleop:/home/hp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hp/turtlebot3_ws/build/turtlebot3_cartographer -- -j4 -l4
+[8.670s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/turtlebot3_ws/install/turtlebot3_teleop:/home/hp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hp/turtlebot3_ws/build/turtlebot3_cartographer -- -j4 -l4
+[9.002s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/turtlebot3_ws/install/turtlebot3_teleop:/home/hp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hp/turtlebot3_ws/build/turtlebot3_cartographer
+[9.043s] -- Install configuration: ""
+[9.049s] -- Execute custom install script
+[9.057s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[9.100s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[9.100s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[9.113s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[9.117s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[9.121s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[9.128s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[9.134s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[9.140s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[9.140s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[9.140s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[9.150s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[9.162s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[9.163s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[9.165s] -- Symlinking: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[9.401s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[9.409s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[9.413s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[9.421s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[9.533s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/turtlebot3_ws/install/turtlebot3_teleop:/home/hp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hp/turtlebot3_ws/build/turtlebot3_cartographer

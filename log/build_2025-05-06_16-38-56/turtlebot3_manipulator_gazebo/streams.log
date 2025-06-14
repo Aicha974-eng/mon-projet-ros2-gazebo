@@ -1,0 +1,73 @@
+[0.112s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_manipulator_gazebo': CMAKE_PREFIX_PATH=/home/hp/turtlebot3_ws/install/turtlebot3_gazebo:/home/hp/turtlebot3_ws/install/turtlebot3_description:/home/hp/turtlebot3_ws/install/turtlebot3:/home/hp/turtlebot3_ws/install/turtlebot3_simulations:/home/hp/turtlebot3_ws/install/turtlebot3_bringup:/home/hp/turtlebot3_ws/install/turtlebot3_node:/home/hp/turtlebot3_ws/install/turtlebot3_navigation2:/home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo:/home/hp/turtlebot3_ws/install/turtlebot3_fake_node:/home/hp/turtlebot3_ws/install/turtlebot3_cartographer:/usr/share/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hp/turtlebot3_ws/install/turtlebot3_teleop:/home/hp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hp/turtlebot3_ws/build/turtlebot3_manipulator_gazebo -- -j4 -l4
+[0.946s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.466s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.538s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.807s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.855s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.960s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.287s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.297s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.577s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.023s] -- Found ros_gz: 1.0.11 (/opt/ros/jazzy/share/ros_gz/cmake)
+[3.073s] -- Found ros_gz_sim: 1.0.11 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[3.116s] -- Found ros_gz_bridge: 1.0.11 (/opt/ros/jazzy/share/ros_gz_bridge/cmake)
+[3.593s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.782s] -- Searching for dependencies of gz-msgs10
+[5.721s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[5.778s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.779s] -- Searching for dependencies of gz-utils2
+[5.818s] -- Looking for gz-math7 -- found version 7.5.2
+[5.819s] -- Searching for dependencies of gz-math7
+[5.821s] -- Looking for gz-utils2 -- found version 2.2.1
+[5.847s] -- Checking for module 'tinyxml2'
+[6.069s] --   Found tinyxml2, version 10.0.0
+[6.278s] -- Looking for gz-transport13 -- found version 13.4.1
+[6.280s] -- Searching for dependencies of gz-transport13
+[6.381s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.390s] -- Checking for module 'libzmq >= 4'
+[6.434s] --   Found libzmq, version 4.3.5
+[6.628s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[6.648s] -- Checking for module 'uuid'
+[6.724s] --   Found uuid, version 2.39.3
+[6.818s] -- Found UUID: TRUE  
+[6.819s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.819s] -- Searching for dependencies of gz-utils2
+[6.820s] -- Searching for <gz-utils2> component [cli]
+[6.828s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[6.828s] -- Searching for dependencies of gz-utils2-cli
+[6.830s] -- Looking for gz-msgs10 -- found version 10.3.2
+[7.914s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[8.459s] -- Found controller_manager: 4.28.1 (/opt/ros/jazzy/share/controller_manager/cmake)
+[9.445s] -- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+[9.467s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.830s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.830s] -- Configured 'flake8' exclude dirs and/or files: 
+[9.831s] -- Added test 'lint_cmake' to check CMake code style
+[9.833s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.837s] -- Added test 'xmllint' to check XML markup files
+[9.841s] -- Configuring done (9.1s)
+[9.870s] -- Generating done (0.0s)
+[9.881s] -- Build files have been written to: /home/hp/turtlebot3_ws/build/turtlebot3_manipulator_gazebo
+[9.949s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_manipulator_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/hp/turtlebot3_ws/install/turtlebot3_gazebo:/home/hp/turtlebot3_ws/install/turtlebot3_description:/home/hp/turtlebot3_ws/install/turtlebot3:/home/hp/turtlebot3_ws/install/turtlebot3_simulations:/home/hp/turtlebot3_ws/install/turtlebot3_bringup:/home/hp/turtlebot3_ws/install/turtlebot3_node:/home/hp/turtlebot3_ws/install/turtlebot3_navigation2:/home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo:/home/hp/turtlebot3_ws/install/turtlebot3_fake_node:/home/hp/turtlebot3_ws/install/turtlebot3_cartographer:/usr/share/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hp/turtlebot3_ws/install/turtlebot3_teleop:/home/hp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hp/turtlebot3_ws/build/turtlebot3_manipulator_gazebo -- -j4 -l4
+[9.973s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_manipulator_gazebo': CMAKE_PREFIX_PATH=/home/hp/turtlebot3_ws/install/turtlebot3_gazebo:/home/hp/turtlebot3_ws/install/turtlebot3_description:/home/hp/turtlebot3_ws/install/turtlebot3:/home/hp/turtlebot3_ws/install/turtlebot3_simulations:/home/hp/turtlebot3_ws/install/turtlebot3_bringup:/home/hp/turtlebot3_ws/install/turtlebot3_node:/home/hp/turtlebot3_ws/install/turtlebot3_navigation2:/home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo:/home/hp/turtlebot3_ws/install/turtlebot3_fake_node:/home/hp/turtlebot3_ws/install/turtlebot3_cartographer:/usr/share/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hp/turtlebot3_ws/install/turtlebot3_teleop:/home/hp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hp/turtlebot3_ws/build/turtlebot3_manipulator_gazebo
+[9.988s] -- Install configuration: ""
+[9.988s] -- Execute custom install script
+[9.998s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/launch/turtlebot3_manipulator_gazebo.launch.py
+[10.006s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/urdf/turtlebot3_waffle_manipulator.urdf.xacro
+[10.006s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulator_gazebo
+[10.007s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulator_gazebo
+[10.008s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/environment/ament_prefix_path.sh
+[10.009s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/environment/ament_prefix_path.dsv
+[10.009s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/environment/path.sh
+[10.010s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/environment/path.dsv
+[10.011s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/local_setup.bash
+[10.011s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/local_setup.sh
+[10.012s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/local_setup.zsh
+[10.013s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/local_setup.dsv
+[10.013s] -- Symlinking: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/package.dsv
+[10.035s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/ament_index/resource_index/packages/turtlebot3_manipulator_gazebo
+[10.036s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/cmake/turtlebot3_manipulator_gazeboConfig.cmake
+[10.037s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/cmake/turtlebot3_manipulator_gazeboConfig-version.cmake
+[10.037s] -- Up-to-date symlink: /home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo/share/turtlebot3_manipulator_gazebo/package.xml
+[10.041s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_manipulator_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/hp/turtlebot3_ws/install/turtlebot3_gazebo:/home/hp/turtlebot3_ws/install/turtlebot3_description:/home/hp/turtlebot3_ws/install/turtlebot3:/home/hp/turtlebot3_ws/install/turtlebot3_simulations:/home/hp/turtlebot3_ws/install/turtlebot3_bringup:/home/hp/turtlebot3_ws/install/turtlebot3_node:/home/hp/turtlebot3_ws/install/turtlebot3_navigation2:/home/hp/turtlebot3_ws/install/turtlebot3_manipulator_gazebo:/home/hp/turtlebot3_ws/install/turtlebot3_fake_node:/home/hp/turtlebot3_ws/install/turtlebot3_cartographer:/usr/share/gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hp/turtlebot3_ws/install/turtlebot3_teleop:/home/hp/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hp/turtlebot3_ws/build/turtlebot3_manipulator_gazebo

@@ -1,0 +1,1 @@
+rclcpp;turtlebot3_gazebo;turtlebot3_description;gazebo_ros;robot_state_publisher;controller_manager;open_manipulator_description;urdf;xacro;open_manipulator_teleop;open_manipulator_moveit_config;ament_lint_auto;ament_lint_common

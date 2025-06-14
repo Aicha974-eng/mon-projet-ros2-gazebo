@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages",
+        "/home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

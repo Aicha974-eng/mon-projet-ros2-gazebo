@@ -1,0 +1,55 @@
+[20.969s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_example': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hp/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/hp/turtlebot3_ws/build/turtlebot3_example/build
+[24.588s] running develop
+[29.240s] Removing /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3-example.egg-link (link to .)
+[29.352s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_example' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hp/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/hp/turtlebot3_ws/build/turtlebot3_example/build
+[29.372s] Invoking command in '/home/hp/turtlebot3_ws/src/turtlebot3/turtlebot3_example': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hp/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/hp/turtlebot3_ws/build/turtlebot3_example/build install --record /home/hp/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data --force
+[34.130s] running egg_info
+[34.218s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[34.219s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[34.219s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[34.219s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[34.220s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[34.471s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[34.474s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[34.474s] running build
+[34.474s] running build_py
+[34.503s] running install
+[34.520s] running install_lib
+[34.606s] creating /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example
+[34.606s] creating /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[34.609s] copying /home/hp/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[34.610s] copying /home/hp/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[34.649s] copying /home/hp/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example
+[34.650s] creating /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_position_control
+[34.661s] copying /home/hp/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control_pointop_key.py -> /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_position_control
+[34.662s] copying /home/hp/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_position_control
+[34.662s] creating /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[34.698s] copying /home/hp/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[34.698s] copying /home/hp/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[34.712s] creating /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[34.716s] copying /home/hp/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[34.727s] copying /home/hp/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[34.728s] copying /home/hp/turtlebot3_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[34.728s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker/__init__.py to __init__.cpython-312.pyc
+[34.728s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py to turtlebot3_interactive_marker.cpython-312.pyc
+[34.728s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/__init__.py to __init__.cpython-312.pyc
+[34.729s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control_pointop_key.py to turtlebot3_position_control_pointop_key.cpython-312.pyc
+[34.729s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_position_control/__init__.py to __init__.cpython-312.pyc
+[34.753s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-312.pyc
+[34.773s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-312.pyc
+[34.774s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-312.pyc
+[34.774s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol/__init__.py to __init__.cpython-312.pyc
+[34.774s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-312.pyc
+[34.774s] running install_data
+[34.775s] copying resource/turtlebot3_example -> /home/hp/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[34.775s] copying package.xml -> /home/hp/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[34.775s] running install_egg_info
+[35.199s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example-2.2.6-py3.12.egg-info
+[35.237s] running install_scripts
+[37.347s] Installing turtlebot3_interactive_marker script to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[37.353s] Installing turtlebot3_obstacle_detection script to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[37.353s] Installing turtlebot3_patrol_client script to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[37.353s] Installing turtlebot3_patrol_server script to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[37.367s] Installing turtlebot3_position_control_pointop_key script to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[37.394s] writing list of installed files to '/home/hp/turtlebot3_ws/build/turtlebot3_example/install.log'
+[37.568s] Invoked command in '/home/hp/turtlebot3_ws/src/turtlebot3/turtlebot3_example' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hp/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/hp/turtlebot3_ws/build/turtlebot3_example/build install --record /home/hp/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data --force

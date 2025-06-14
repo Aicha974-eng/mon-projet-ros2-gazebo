@@ -1,0 +1,23 @@
+[4.592s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_example': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hp/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hp/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data --force
+[5.818s] running develop
+[6.416s] running egg_info
+[6.455s] writing turtlebot3_example.egg-info/PKG-INFO
+[6.494s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[6.494s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[6.495s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[6.495s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[6.572s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[6.809s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[6.860s] running build_ext
+[6.861s] Creating /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3-example.egg-link (link to .)
+[6.862s] Installing turtlebot3_interactive_marker script to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[6.862s] Installing turtlebot3_obstacle_detection script to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[6.863s] Installing turtlebot3_patrol_client script to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[6.863s] Installing turtlebot3_patrol_server script to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[6.863s] Installing turtlebot3_position_control_pointop_key script to /home/hp/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[6.863s] 
+[6.864s] Installed /home/hp/turtlebot3_ws/build/turtlebot3_example
+[6.864s] running symlink_data
+[6.864s] symbolically linking /home/hp/turtlebot3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/hp/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[6.865s] symbolically linking /home/hp/turtlebot3_ws/build/turtlebot3_example/package.xml -> /home/hp/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[6.936s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_example' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hp/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hp/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data --force

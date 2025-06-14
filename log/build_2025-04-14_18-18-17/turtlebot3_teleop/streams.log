@@ -1,0 +1,17 @@
+[4.466s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hp/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[5.687s] running develop
+[6.542s] running egg_info
+[6.618s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[6.619s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[6.619s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[6.619s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[6.620s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[6.782s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[6.798s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[6.877s] running build_ext
+[6.878s] Creating /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3-teleop.egg-link (link to .)
+[6.884s] Installing teleop_keyboard script to /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[6.884s] 
+[6.884s] Installed /home/hp/turtlebot3_ws/build/turtlebot3_teleop
+[6.886s] running symlink_data
+[6.981s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hp/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data

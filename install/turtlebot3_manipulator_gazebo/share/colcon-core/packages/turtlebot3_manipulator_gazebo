@@ -1,0 +1,1 @@
+controller_manager:gazebo_ros:open_manipulator_description:open_manipulator_moveit_config:open_manipulator_teleop:rclcpp:robot_state_publisher:turtlebot3_description:turtlebot3_gazebo:urdf:xacro

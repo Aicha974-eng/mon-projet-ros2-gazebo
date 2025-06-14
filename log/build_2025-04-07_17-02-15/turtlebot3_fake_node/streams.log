@@ -1,0 +1,72 @@
+[0.026s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hp/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/hp/turtlebot3_ws/install/turtlebot3_fake_node
+[0.186s] -- The C compiler identification is GNU 13.3.0
+[0.302s] -- The CXX compiler identification is GNU 13.3.0
+[0.339s] -- Detecting C compiler ABI info
+[0.570s] -- Detecting C compiler ABI info - done
+[0.603s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.604s] -- Detecting C compile features
+[0.609s] -- Detecting C compile features - done
+[0.634s] -- Detecting CXX compiler ABI info
+[0.854s] -- Detecting CXX compiler ABI info - done
+[0.879s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.879s] -- Detecting CXX compile features
+[0.881s] -- Detecting CXX compile features - done
+[0.893s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.322s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.665s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.838s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.892s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.959s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.022s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.160s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.282s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.457s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.472s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.764s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.845s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.927s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.180s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.257s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[3.279s] -- Found tf2_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[3.486s] -- Found turtlebot3_msgs: 2.3.0 (/opt/ros/jazzy/share/turtlebot3_msgs/cmake)
+[3.820s] -- Configuring done (3.8s)
+[3.918s] -- Generating done (0.0s)
+[3.933s] -- Build files have been written to: /home/hp/turtlebot3_ws/build/turtlebot3_fake_node
+[3.975s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hp/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/hp/turtlebot3_ws/install/turtlebot3_fake_node
+[3.978s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hp/turtlebot3_ws/build/turtlebot3_fake_node -- -j4 -l4
+[4.116s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[44.821s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[47.116s] [100%] Built target turtlebot3_fake_node
+[47.161s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hp/turtlebot3_ws/build/turtlebot3_fake_node -- -j4 -l4
+[47.163s] Invoking command in '/home/hp/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hp/turtlebot3_ws/build/turtlebot3_fake_node
+[47.221s] -- Install configuration: ""
+[47.221s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[47.250s] -- Set non-toolchain portion of runtime path of "/home/hp/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[47.250s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[47.251s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[47.267s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[47.268s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[47.325s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[47.327s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[47.329s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[47.330s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/include/
+[47.330s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[47.331s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[47.331s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[47.331s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[47.332s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[47.332s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[47.333s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[47.333s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[47.333s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[47.333s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[47.334s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[47.334s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[47.334s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[47.336s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[47.336s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.337s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.337s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[47.337s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[47.338s] -- Installing: /home/hp/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[47.342s] Invoked command in '/home/hp/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hp/turtlebot3_ws/build/turtlebot3_fake_node

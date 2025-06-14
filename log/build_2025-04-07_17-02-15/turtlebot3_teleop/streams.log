@@ -1,0 +1,42 @@
+[2.643s] Invoking command in '/home/hp/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hp/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build install --record /home/hp/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[3.663s] running egg_info
+[3.664s] creating ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info
+[3.733s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[3.733s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[3.734s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[3.734s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[3.737s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[3.738s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[3.888s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[3.889s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[3.889s] running build
+[3.889s] running build_py
+[3.889s] creating /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build
+[3.890s] creating /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build/lib
+[3.890s] creating /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[3.890s] copying turtlebot3_teleop/__init__.py -> /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[3.890s] creating /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[3.891s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[3.909s] copying turtlebot3_teleop/script/__init__.py -> /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[3.909s] running install
+[3.933s] running install_lib
+[4.014s] creating /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop
+[4.014s] copying /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop
+[4.015s] creating /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script
+[4.016s] copying /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script
+[4.020s] copying /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script
+[4.026s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-312.pyc
+[4.026s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[4.036s] byte-compiling /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-312.pyc
+[4.043s] running install_data
+[4.044s] creating /home/hp/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index
+[4.046s] creating /home/hp/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index
+[4.047s] creating /home/hp/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[4.048s] copying resource/turtlebot3_teleop -> /home/hp/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[4.048s] copying package.xml -> /home/hp/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[4.048s] running install_egg_info
+[4.204s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop-2.2.6-py3.12.egg-info
+[4.206s] running install_scripts
+[4.712s] Installing teleop_keyboard script to /home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[4.713s] writing list of installed files to '/home/hp/turtlebot3_ws/build/turtlebot3_teleop/install.log'
+[4.880s] Invoked command in '/home/hp/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hp/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hp/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/hp/turtlebot3_ws/build/turtlebot3_teleop/build install --record /home/hp/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
